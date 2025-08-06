@@ -1,2 +1,40 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+CHAPTER 2:
+
+Q1:
+ var username;
+
+ Q2:
+ var myName = "Sana"
+
+ Q3:
+ var message;
+ message = "Hello World"
+ alert(message)
+
+ Q4:
+ var studentname = "Jhone Deo"
+ var studentage = "15 years Old"
+ var aboutstudent = "Certified mobile application development"
+ alert(studentname)
+ alert(studentage)
+ alert(aboutstudent)
+
+ Q5:
+ var food = "Pizza";
+ alert(food)
+
+ Q6: 
+ var email = "sana61786@gmail.com"
+ alert("My email address is :" + email)
+
+ Q7:
+ var book = "A Smarter Way To learn Javascript"
+ alert("I am trying to learn from the book  :" + book)
+
+ Q8:
+ document.write("<p>Yah! I can write html content throung Javascript!</p>")
+
+Q9:
+ var name = "sana"
+ alert(name)  
+
