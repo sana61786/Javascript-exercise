@@ -1,22 +1,2 @@
-CHAPTER 2:
- var username;
- var myName = "Sana"
- var message;
- message = "Hello World"
- alert(message)
- var studentname = "Jhone Deo"
- var studentage = "15 years Old"
- var aboutstudent = "Certified mobile application development"
- alert(studentname)
- alert(studentage)
- alert(aboutstudent)
- var food = "Pizza";
- alert(food)
- var email = "sana61786@gmail.com"
- alert("My email address is :" + email)
- var book = "A Smarter Way To learn Javascript"
- alert("I am trying to learn from the book  :" + book
- document.write("<p>Yah! I can write html content throung Javascript!</p>")
- var name = "sana"
- alert(name)  
+
 
