@@ -1,74 +1,77 @@
 // javascript exercise chapter 1 to 10
 // chapter 1
-
+// Q1
 alert('Error!please enter your valid password')
-
+// Q2
 alert('welcome to js land happy codding')
-
+// Q3
 alert('Welcome js Land')
-
+// Q4
 alert('happy codding')
-
+// Q5
 alert('Hello...i can learn JS thought My web browser console')
 
-
- //  chapter 2
-
+//  chapter 2
+    // Q1
         var username;
+   // Q2
         var myname = "sana naz"
-        var message ="hello world"
+   // Q3
+       var message ="hello world"
         alert(message)
-        
+     // Q4
         var studentname ="sara khan"
         alert(studentname)
         var studentage ="20"
         alert(studentage)
         var studnetcertificate ="certified mobile appplication development"
         alert(studnetcertificate)
-        
+        // Q5
         var pizza ="PIZZA \n PIZZ \n PIZ \n PI \n A"
         alert(pizza)
-        
+        // Q6
         var email ="myemail@gamil.com"
         alert("my email address " +email)
-        
+        // Q7
         var book ="A smart way to learn javascript"
         alert("im trying to learn from the book a smart way to learn javascript")
-        
+        // Q8
         document.write("yah! i can write HTML contant through javascript")
-        
+        // Q9
         var store = "▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬"
         alert(store)
         document.write("▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬")
 
         // chapter 3
-
+        // Q1
         var age = 21
         alert("age")
-        
+        // Q2
         var visitor = 14
         alert("you have visited this site" + visitor + "times")
-        
+        // Q3
         var birthyear = 2005
         document.write(" my birth is " + birthyear) 
         document.write("deta type of my declared variable is number <br>")
-        
+        // Q4
         var visitorename = "sara khan"
         var productTitle ="T-shirt"
         var order = 5
         document.write("sarakhan + ordered + 5 T-shirts + XYZ clothing store")
 
     //   CHAPTER 4
+// Q1
 var var1;
 var var2;
 var var3;
- 5 legal variables
+ // Q2
+5 legal variables
 var _myName;
 var  $num1;
 var myVar;
 var prices2;
 var $_;
-
+// Q3
  5 illegal variables
 var 1stletter;
 var first Name;
@@ -78,16 +81,33 @@ var my#num;
 document.write("<h1>Rules for naming JS variables</h1>")
 document.write("<p>Variables name can only contain numbers, $ and _. for example : $my_1stVariable </br> Variable must begin with a letter, $ or _. for eg: $name, _name or name.</br> Variable names are case sensitive.</br> Variable names should not be JS keywords</p>")
 
- // chapter 5
-        var num2 = 4
-        var sum = num1 / num2    // 5
+   // chapter 5
+   // Q1  and Q2
+       var num1 = 3
+        var num2 = 5
+        var sum = num1 + num2    // 8
         console.log(sum)
         
-        var num1 = 2
-        var num2 = 20
-        var sum = num1 % num2      // 2
+        var num1 = 3
+        var num2 = 5
+        var sum = num1 - num2    // 2
         console.log(sum)
-
+       
+        var num1 = 3
+        var num2 = 5
+        var sum = num1 * num2    // 15
+        console.log(sum)
+   
+        var num1 = 3
+        var num2 = 5
+        var sum = num1 / num2      // 0.6
+        console.log(sum)
+       
+        var num = 3
+        var num2 = 5
+        var sum = num1 % num2    // 2
+        console.log(sum)
+      // Q3
         var number = 7
         console.log(++number)
         document.write("value after declaration is undefined"  + "<br>")
@@ -102,13 +122,13 @@ document.write("<p>Variables name can only contain numbers, $ and _. for example
          document.write("value after decremnet is" + num1 + "<br>")  // 7
         console.log(result % 3)
         document.write("reminder is 0")
-
+      // Q4
         var ticketprice = 100
         var totalprice = (ticketprice * 5)  //500
         console.log(totalprice)
         document.write("total cost to buy 5 tickets to a movie is"  +  totalprice)
         
-        
+        // Q5
         document.write("table of 4 <br>")
         document.write("2 * 1 = 2 <br>")
         document.write("2 * 2 = 4 <br>")
@@ -120,7 +140,7 @@ document.write("<p>Variables name can only contain numbers, $ and _. for example
         document.write("2 * 8 = 16 <br>")
         document.write("2 * 9 = 18 <br>")
         document.write("2 * 10 = 20 <br>")
-        
+        // Q7
         var itemprice1 = 200
         var item1qty = 4
          var result = (itemprice1 * item1qty) 
@@ -139,7 +159,7 @@ document.write("<p>Variables name can only contain numbers, $ and _. for example
         document.write("item2 qty is  " + item2qty  + "<br>")
         document.write(" shopping_charges is " +  shopping_charges  + "<br>")
         document.write("your total bill is 2200"  + "<br>")
-        
+        // Q8
         var totalmarks = 1000
         var obtainmarks = 800
         var percentage = (obtainmarks/ totalmarks ) * 100
@@ -148,15 +168,15 @@ document.write("<p>Variables name can only contain numbers, $ and _. for example
         document.write("total marks "  + totalmarks + "<br>")
         document.write("obtainmarks "  + obtainmarks + "<br>")
         document.write("percentage "  + percentage + "%" + "<br>")
-        
+        // Q9
         var totalpkr = (10 * 104.80) + ( 25 * 28)
         console.log(totalpkr) //1748
         document.write("total currency in PKR is" + totalpkr + "<br>")
-         
+        // Q10 
         var number = 5
         number = number + 5 * 10    / 2
         console.log(number)         //30
-        
+        // Q11
         var currentyear = 2025
         var birthyear = 2004
         var age = (currentyear - birthyear)   //21
@@ -166,7 +186,7 @@ document.write("<p>Variables name can only contain numbers, $ and _. for example
         document.write("currentyear is" + currentyear + "<br>")
         document.write("birthyear is" + birthyear + "<br>")
         document.write("your age is" + age + "<br>")
-        
+        // Q13
         var snack = ("chocolate chip")
         var age = (20)
         var maximumage = (60)
@@ -183,8 +203,8 @@ document.write("<p>Variables name can only contain numbers, $ and _. for example
         document.write("amount of snack per day :" + snackperday + "<br>")
         document.write("you will need 43800 chocolotechips to last you until the ripe old age of 60" + "<br>")
 
-        //chapter 6-7-8
-
+        //chapter 6
+    // Q1
         var a = 10
         ++a   //value 11
         a++   //value is 12
@@ -197,7 +217,7 @@ document.write("<p>Variables name can only contain numbers, $ and _. for example
         document.write("the value of a is 11 <br> ")
         document.write("the value of a is 10 <br>")
         
-        
+        // Q2
         var a = 2    //1
         var b = 1    //0
         var result = --a - --b + ++b + b--
@@ -207,7 +227,7 @@ document.write("<p>Variables name can only contain numbers, $ and _. for example
         document.write(" reesult is 3 <br>") 
         
         var username = prompt("Enter your name")
-        alert("weelcome" + username)
+        alert("welcome" + username)
         
         var typeNumber =prompt("Enter number between 1-10")
          if (){
@@ -215,14 +235,14 @@ document.write("<p>Variables name can only contain numbers, $ and _. for example
         }
         
         // chapter 9-10
-        
+        // Q1
         var cityname = prompt("enter city name")
         if (cityname === "karachi"){
              alert("welcome to tha city of karachi")  
         }else {
         alert("welcome")
         }
-        
+        // Q2
         var gender = prompt("Please enter your gender")
         if (gender === "male"){
             alert("good morning sir")
@@ -231,7 +251,7 @@ document.write("<p>Variables name can only contain numbers, $ and _. for example
         }else {
             alert("plz type your gender")
         }
-
+      // Q3
         var color = prompt("enter traffic signal color")
         if (color){
             if (color==="red"){
@@ -246,13 +266,14 @@ document.write("<p>Variables name can only contain numbers, $ and _. for example
         }else {
             alert("You did not enter any color")
         }
-
+        // Q4
         var fuel = +prompt("Check fuel in liters")
         if (fuel <=0.25 ){
             alert("plz refill the fuel in your car")
         }else {
             alert("You have enough fuel")
         }
+       // Q5
         var a = 4
         if (++a === 5){
             alert("given condition for variable a is true")
@@ -294,6 +315,7 @@ document.write("<p>Variables name can only contain numbers, $ and _. for example
         if ("car" < "cat"){
             alert("true")
         }
+       // Q6
         var sub1 = +prompt("Enter marks of subject english:");
         var sub2 = +prompt("Enter marks of subject math:");
         var sub3 = +prompt("Enter marks of subject urdu:");
@@ -324,9 +346,8 @@ document.write("<p>Variables name can only contain numbers, $ and _. for example
         document.write("Percentage: " + percentage + "%<br>");
         document.write("Grade: " + grade + "<br>");
         document.write("Remarks: " + remarks + "<br>");
-
-       
-        var secretnumber = +prompt("guess a secret number 1-10")
+       // Q7
+       var secretnumber = +prompt("guess a secret number 1-10")
          var number = 6
 if (secretnumber===number){
     alert("Bingo correct answer")
@@ -335,7 +356,7 @@ if (secretnumber===number){
 }else {
     alert("try again")
 } 
-
+  // Q8
 
  var number = +prompt("Enter a number to check if it is divisible by 3:");
 
@@ -344,16 +365,16 @@ if (number % 3 === 0) {
 } else {
     alert(number + " is not divisible by 3.");
 }
-
+// Q9
 var number = +prompt("Enter a number to check if it is even or odd:");
 if (number % 2 === 0) {
     alert(number + " is even.");
 } else {
     alert(number + " is odd.");
 }
-
+// Q10
 var temp = +prompt("enter temprature")
-if (temp <=100){
+if (temp <=70){
     if(temp > 40 ){
         alert("it is to hotoutside")
     }else if (temp > 30){
